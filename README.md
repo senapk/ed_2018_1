@@ -22,14 +22,14 @@
 - Implementação da princesa em C++ com listas.
 - Introdução à recursão. Algoritmo da queimada em árvores.
 - **Todo**:
-    - Instale o linux
+    - Instale o linux, dualboot ou virtualizado.
     - instale o qtcreator e o c++. No ubuntu e derivados, você pode instalar pelo seguinte comando:
 
 ```
 $ sudo apt install qtcreator qt5-default libsfml-dev    
 ``` 
     - refazer ou alterar o algoritmo de decaptação da princesa. 
-    - visualizar o retorno da recursão conforme executável no linux nesta pasta.
+    - alterar o código da queimada para visualizar o retorno da recursão conforme executável no linux nesta pasta.
     - Procurar sua playlist das aulas no youtube
     
 
