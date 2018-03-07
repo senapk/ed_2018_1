@@ -1,7 +1,7 @@
 ## S02e01
 - Contrato de convivência
 - Apresentação da disciplina
-- Site para consulta de Linguagem: ![https://www.learncpp.com](https://www.learncpp.com/)
+- Site para consulta de Linguagem: ![link](https://www.learncpp.com)
 - Material didático Ricardo: ![link](https://github.com/qxcodeed/material_didatico)
 - Slides Ricardo CPP: ![link](https://github.com/qxcodeed/material_didatico/raw/master/MINICURSO_C%2B%2B.pdf)
 - Lista de trabalhos: ![link](https://trello.com/b/LjSvYn6H/ed-trabalhos)
@@ -11,8 +11,11 @@
     - coloque sua foto no si3.
 
 ## s02e02
+- Comando para instalar o qtcreator
+    - sudo apt install qtcreator qt5-default libsfml-dev
 - Implementação da princesa com marcação, remoção e rotação.
 - Introdução à recursão. Algoritmo da queimada em árvores.
 - **Todo**: 
-    - contar quantas árvores foram queimadas usando o retorno da recursão.
-    - saber se há um caminho entre dois pontos.
+    - visualizar o retorno da recursão.
+    - refazer ou alterar o algoritmo de decaptação da princesa.
+
