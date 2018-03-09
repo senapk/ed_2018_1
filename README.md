@@ -26,7 +26,7 @@
     - instale o qtcreator e o c++. No ubuntu e derivados, você pode instalar pelo seguinte comando:
 
 ```
-$ sudo apt install qtcreator qt5-default libsfml-dev    
+$ sudo apt install base-devel qtcreator qt5-default libsfml-dev    
 ``` 
     - refazer ou alterar o algoritmo de decaptação da princesa. 
     - alterar o código da queimada para visualizar o retorno da recursão conforme executável no linux nesta pasta.
