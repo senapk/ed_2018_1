@@ -1,3 +1,12 @@
+
+
+## Trabalhos para postar no git
+Nomes das pastas
+- 01_princesa
+    - faça o código da princesa com n saltos.
+- 02_queimada
+    - faça a queimada aprensentando a profundidade com um número e o retorno.
+
 ## Links importantes
 - Site para consulta de Linguagem: [link](https://learncpp.com)
 - Material didático Ricardo: [link](https://github.com/qxcodeed/material_didatico)
