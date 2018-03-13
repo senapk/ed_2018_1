@@ -45,14 +45,3 @@ $ sudo apt install build-essential qtcreator qt5-default libsfml-dev
     - Criar uma conta no github.
 
 
-
-
-
-
-
-
-
-
-
-
-
