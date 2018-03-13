@@ -18,7 +18,7 @@
     - se inscrever na turma do Moodle
     - coloque sua foto no si3.
 
-## s02e02
+## S02E02
 - Implementação da princesa em C++ com listas.
 - Introdução à recursão. Algoritmo da queimada em árvores.
 - **Todo**:
@@ -26,12 +26,30 @@
     - instale o qtcreator e o c++. No ubuntu e derivados, você pode instalar pelo seguinte comando:
 
 ```
-$ sudo apt install base-devel qtcreator qt5-default libsfml-dev    
+$ sudo apt install build-essential qtcreator qt5-default libsfml-dev    
 ``` 
     - refazer ou alterar o algoritmo de decaptação da princesa. 
     - alterar o código da queimada para visualizar o retorno da recursão conforme executável no linux nesta pasta.
     - Procurar sua playlist das aulas no youtube
-    
+
+## S03E01
+- Queimada aleatória
+- Construtores
+- Struct Par
+- Função embaralhar e vetores de Pares
+- Apresentação do Framework visual de matrizes.
+- Todo
+    - Download do repositório de Matrizes qxcodeed.github.com
+    - Fazer o retorno da recursão e números incrementais.
+    - Estudar o código dos vizinhos aleatórios.
+    - Criar uma conta no github.
+
+
+
+
+
+
+
 
 
 
