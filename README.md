@@ -1,11 +1,17 @@
-
-
 ## Trabalhos para postar no git
 Nomes das pastas
-- 01_princesa
+- 01_princesa: 
+    - refaça o código da princesa estudando o que sentir dificuldade em c++.
     - faça o código da princesa com n saltos.
-- 02_queimada
-    - faça a queimada aprensentando a profundidade com um número e o retorno.
+- 02_queimada: faça a queimada com as seguintes variações.
+    - aprensentando a profundidade com um número como no vídeo da atividade.
+    - conte a quantidade de árvores queimadas através do retorno da recursão. Não use nenhum tipo de variável global.
+    - marque os locais por onde a recursão já voltou.
+
+- 03_vector: Complete os métodos do Vector que desenvolvemos em sala acrescentando 
+    - faça o método reserve.
+    - conserte o método push_back para duplicar o espaço caso necessário.
+    - faça os testes para verificar o funcionamento do seu código.
 
 ## Links importantes
 - Site para consulta de Linguagem: [link](https://learncpp.com)
@@ -53,4 +59,10 @@ $ sudo apt install build-essential qtcreator qt5-default libsfml-dev
     - Estudar o código dos vizinhos aleatórios.
     - Criar uma conta no github.
 
+## S03E02 - Vector
+
+- Todo
+    - aprender a usar o básico do git e começar a enviar as atividades pro repositório
+    - instalar o qtcreator e o sfml e testar algum trabalho(matrizes ou fractais). Os trabalhos estão em qxcodeed.github.io
+    - estudar o código do vector e completar a atividade
 
