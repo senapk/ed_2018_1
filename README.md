@@ -7,11 +7,15 @@ Nomes das pastas
     - aprensentando a profundidade com um número como no vídeo da atividade.
     - conte a quantidade de árvores queimadas através do retorno da recursão. Não use nenhum tipo de variável global.
     - marque os locais por onde a recursão já voltou.
-
 - 03_vector: Complete os métodos do Vector que desenvolvemos em sala acrescentando 
     - faça o método reserve.
     - conserte o método push_back para duplicar o espaço caso necessário.
     - faça os testes para verificar o funcionamento do seu código.
+- 04_fractais:
+    - alterar o fractal da árvore conforme gosto pessoal e frescuragens.
+    - implementar outros 3 fractais quaisquer que não foram feitos em sala.
+
+
 
 ## Links importantes
 - Site para consulta de Linguagem: [link](https://learncpp.com)
@@ -65,4 +69,55 @@ $ sudo apt install build-essential qtcreator qt5-default libsfml-dev
     - aprender a usar o básico do git e começar a enviar as atividades pro repositório
     - instalar o qtcreator e o sfml e testar algum trabalho(matrizes ou fractais). Os trabalhos estão em qxcodeed.github.io
     - estudar o código do vector e completar a atividade
+
+## S04E02 - Fractais
+
+- Criação de Fractais em c++
+- Fizemos os seguintes fractais
+    - embuá interativo
+    - embuá interativo com retorno
+    - embuá recursivo
+    - embuá recursivo com retorno
+    - arvore
+    - customização da árvore
+    - triangulos
+- TODO:
+    - Alterar a árvore pra ela ficar bonita, "ter flores e frutos".
+    - Escolher quaisquer outros 3 fractais da pasta de imagens e fazer.
+
+## S04E01 - Criando labirinto recursivo
+
+- Download da biblioteca de matrizes
+- Explicação do algoritmo recursivo para construção de labirinto perfeito
+- Prática em sala de aula
+- TODO
+    - Refazer a atividade da criação do labirinto recursivo estudando as partes
+ou métodos que tiver dificuldade para trazer as dúvidas para próxima aula.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
