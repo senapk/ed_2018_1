@@ -14,7 +14,8 @@ Nomes das pastas
 - 04_fractais:
     - alterar o fractal da árvore conforme gosto pessoal e frescuragens.
     - implementar outros 3 fractais quaisquer que não foram feitos em sala.
-
+- 05_lab_pilha:
+    - criar o labirinto utilizando pilha conforme algoritmo do qxcodeed.github.io
 
 
 ## Links importantes
@@ -85,7 +86,7 @@ $ sudo apt install build-essential qtcreator qt5-default libsfml-dev
     - Alterar a árvore pra ela ficar bonita, "ter flores e frutos".
     - Escolher quaisquer outros 3 fractais da pasta de imagens e fazer.
 
-## S04E01 - Criando labirinto recursivo
+## S05E01 - Criando labirinto recursivo
 
 - Download da biblioteca de matrizes
 - Explicação do algoritmo recursivo para construção de labirinto perfeito
@@ -94,6 +95,15 @@ $ sudo apt install build-essential qtcreator qt5-default libsfml-dev
     - Refazer a atividade da criação do labirinto recursivo estudando as partes
 ou métodos que tiver dificuldade para trazer as dúvidas para próxima aula.
 
+## S05E02 - Achando um caminho entre dois pontos no labirinto
+
+- Critério de parada
+- Retorno da recursão pelo return
+- Algoritmo de busca
+- Atualização da função furar
+- Criação da função acharCaminho
+- TODO
+    - Implementar a criação do labirinto utilizando pilha
 
 
 
