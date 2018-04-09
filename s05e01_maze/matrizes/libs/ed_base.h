@@ -115,7 +115,8 @@ public:
     sfText(sf::Vector2f pos = sf::Vector2f(0, 0), std::string texto = "", sf::Color color = sf::Color::White, int size = 16)
     {
         this->setFont(*this->get_default_font());
-        this->setColor(color);
+        this->setFillColor(color);
+        this->setOutlineColor(color);
         this->setPosition(pos);
         this->setString(texto);
         this->setCharacterSize(size);

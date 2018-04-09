@@ -458,7 +458,8 @@ public:
         float side = recalc_side(rt, nums.size());
         //print numbers
         sfText text;
-        text.setColor(sf::Color::Black);
+        text.setFillColor(sf::Color::Black);
+        text.setOutlineColor(sf::Color::Black);
         for(int c = 0; c < nums.sizeC(); c++){
             for(int l = 0; l < nums.sizeL(); l++){
                 string str = to_string(nums.get(l, c));
