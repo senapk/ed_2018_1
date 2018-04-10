@@ -2,10 +2,18 @@
 
 using namespace std;
 
+//essa variavel global só é vizivel nesse arquivo
+static int value_arquivo;
+
 struct Vetor{
     int * _data;//bloco de dados
     int _capacidade;//tamanho maximo do vetor
     int _size; //quantos elementos estao inseridos
+
+    //todos os vetores que eu criar terão a mesmo
+    //bloco de memoria
+    static int value_classe;
+
 
     Vetor(int capacidade){
         this->_capacidade = capacidade;
@@ -27,16 +35,25 @@ struct Vetor{
 
     //retornar a refencia à variavel dessa posicao
     int& at(int indice){
+        static int dummy = 0;
         return this->_data[indice];
     }
+
     int& front(){
-        return this->_data[0];
+        static int dummy = 0;
+        if(this->_size > 0)
+            return this->_data[0];
+        return dummy;
     }
+
     int& back(){
         return this->_data[this->_size - 1];
     }
     int * begin(){
-        return &this->_data[0];
+        static int dummy = 0;
+        if(_size != 0)
+            return &this->_data[0];
+        return nullptr;
     }
     int * end(){
         return &this->_data[this->_size];
@@ -63,6 +80,10 @@ struct Vetor{
 #include <vector>
 int main()
 {
+
+    Vector v;
+    v.front() = 5;
+    cout << v.front();
     cout << "Hello World!" << endl;
     return 0;
 }
