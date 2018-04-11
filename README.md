@@ -106,12 +106,20 @@ ou métodos que tiver dificuldade para trazer as dúvidas para próxima aula.
     - Implementar a criação do labirinto utilizando pilha
 
 ## S06E01
-    - Revisão de recursão implementando recursão em vetores.
+
+- Revisão de recursão implementando recursão em vetores.
 
 ## S06E01
-    - Revisão de recursão implementando os trabalhos da princesa, queimada e vector em sala.
-    - Adaptação do trabalho da queimada para ambiente visual.
 
+- Revisão de recursão implementando os trabalhos da princesa, queimada e vector em sala.
+- Adaptação do trabalho da queimada para ambiente visual.
+
+
+# S07E01 - Resolução do labirinto com pilha
+
+# S07E02 - Implementação de lista encadeada simples
+- Todo
+    - implementar a remocao pro valor interativa
 
 
 
