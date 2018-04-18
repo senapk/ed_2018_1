@@ -16,7 +16,8 @@ Nomes das pastas
     - implementar outros 3 fractais quaisquer que não foram feitos em sala.
 - 05_lab_pilha:
     - criar o labirinto utilizando pilha conforme algoritmo do qxcodeed.github.io
-
+- 06_lista_ligada:
+    - completar os métodos pra lista ligada que esta na pasta s07e02
 
 ## Links importantes
 - Site para consulta de Linguagem: [link](https://learncpp.com)
