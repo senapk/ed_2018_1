@@ -21,20 +21,57 @@ struct SList{
     }
 
     ~SList(){
-        deletarTudo(head);
+        head = deletarTudo(head);
     }
 
-    void deletarTudo(Node * node){
+    SList(string serial){
 
     }
 
-    5 4 7 8 9 3 1
-    cortarRabo(8)
-    5 4 7
-    //procura o valor, remove desse no em diante
-    Node * cortarRabo(Node * node, int value){
+    string serialize(){
 
     }
+
+    void clear(){
+        head = deletarTudo(head);
+
+    }
+
+    Node * deletarTudo(Node * node){
+        if(node == nullptr)
+            return nullptr;
+        deletarTudo(node->next);
+        delete node;
+        return nullptr;
+    }
+
+//    5 4 7 8 9 3 1
+//    arrancaRabo(8)
+//    5 4 7 8
+    //remove a partir do ultimo até chegar em value
+    Node * arrancaRabo(Node * node, int value){
+        if(node == nullptr)
+            return nullptr;
+        node->next = arrancaRabo(node->next, value);
+        if(node->next == nullptr){
+            if(node->value != value){
+                delete node;
+                return nullptr;
+            }else{
+                return node;
+            }
+        }
+        return node;
+    }
+
+    //    5 4 7 8 9 3 1
+    //    arrancaVenta(8)
+    //    8 9 3 1
+    //remove a partiro do primeiro ate chegar em value
+    Node * arrancaVenta(Node * node, int value){
+        return nullptr;
+    }
+
 
     void push_front(int value){
         //this->head = new Node(value, this->head);

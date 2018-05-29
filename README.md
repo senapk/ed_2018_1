@@ -18,6 +18,8 @@ Nomes das pastas
     - criar o labirinto utilizando pilha conforme algoritmo do qxcodeed.github.io
 - 06_lista_ligada:
     - completar os métodos pra lista ligada que esta na pasta s07e02
+- 07_editor_de_texto
+- 08_fila_banco
 
 ## Links importantes
 - Site para consulta de Linguagem: [link](https://learncpp.com)
