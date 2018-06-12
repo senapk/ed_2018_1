@@ -3,6 +3,12 @@
 #include <tuple>
 using namespace std;
 
+           --
+         33
+       23
+      3
+0 1 2 3 4 5 6 7 8 9
+
 enum Marcador {VAZIO = 0, CHEIO = 1, DELETADO = 2};
 
 struct Elem {
@@ -14,7 +20,7 @@ struct Elem {
         this->value = value;
     }
 
-    bool operator ==(Elem other){
+    bool operator ==(Elem other){, DELETADO = 2
         return key == other.key;
     }
 
@@ -22,6 +28,11 @@ struct Elem {
         os << e.key;
         return os;
     }
+};
+
+struct Item {
+    Elem elem;
+    Marcador marc;
 };
 
 struct HashLinear{ //linear probing
@@ -52,19 +63,40 @@ struct HashLinear{ //linear probing
     }
 
     bool remove(int key){
-        it = find(key)
-        if nao eh nulo
-            it.marcador = DELETADO;
+        pos = find(key)
+        if existe
+            vet[pos].marcador = DELETADO;
         size--;
     }
 
-    pair<Elem, Marcador> * find(int key){
-        pos = calcula a posicao base;
-        enquanto(vet na pos nao for vazio nem key)
-            anda
+    //implementação sem marcação, com realocacao
+    bool remove(int key){
+        int pos = find(key);
+        if(pos != -1){
+            vet[pos].marcador = VAZIO;
+            return false;
+        }
+        size--;
+        pos = (pos + 1) % capacity;
+        while(vet[pos].marcador != vazio){
+            vet[pos].marcador =  VAZIO;
+            inserir(vet[pos].elem);
+            pos = (pos + 1) % capacity;
+        }
+        return true;
+    }
+
+    //retorna posicao que encontrou o elemento ou -1
+    int find(int key){
+        int base = key % capacity;
+        int i = 0;
+        while nao encontrar um vazio ou elemento{
+            i++
+            pos = (base + i * i) % capacity
+        }
         if(vet na pos eh vazio)
-            return nulo
-        return elem
+            return -1
+        return pos
     }
 
     void resize(int capacity){
