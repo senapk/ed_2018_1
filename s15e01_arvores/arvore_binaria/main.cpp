@@ -20,7 +20,7 @@ struct Tree {
     }
 
     Tree(Tree other){
-        root = clone(other.root)
+        root = clone(other.root);
     }
 
     Node * clone(Node * node){
@@ -75,6 +75,50 @@ struct Tree {
         return find(node->right, key);
     }
 
+    //ligatures
+    int _min(Node * node){
+        if((node->left == nullptr) && (node->right == nullptr))
+            return node->value;
+        int menor;
+        if(node->left != nullptr)
+            menor = std::min(node->value, _min(node->left));
+        if(node->right != nullptr)
+            menor = std::min(menor, _min(node->right));
+        return menor;
+    }
+
+    int _min(Node * node){
+        if(node == nullptr)
+            return 2147483647;
+        return std::min(std::min(node->value, _min(node->left)),
+                                 _min(node->right));
+    }
+
+    int min(){
+        return _min(head);
+    }
+
+    int _soma(Node * node){
+        if(node == nullptr)
+            return 0;
+        return node->value + _soma(node->left) + _soma(node->right);
+    }
+
+    int soma(){
+        return _soma(root);
+    }
+
+    void _show(Node * node){
+        if(node == nullptr)
+            return;
+        _show(node->left);
+        _show(node->right);
+        cout << node->value << " ";
+    }
+
+    void show(){
+        _show(root);
+    }
 
 
 };
